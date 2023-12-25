@@ -42,7 +42,7 @@ export default function HomePage() {
             background: "yellow"
           },
           {
-            text: "Thank you, dear Aunty, for being you.",
+            text: "Thank you, Dad, for being you.",
             background: "yellow"
           },
           {
