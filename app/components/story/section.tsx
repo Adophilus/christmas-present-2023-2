@@ -48,7 +48,7 @@ const Section: FunctionComponent<{
       {sections.map(({ text, icon, footer, ...options }, index) => (
         <div
           className="h-[3000px]"
-          key={text}
+          key={index}
         >
           <Transition
             show={activeSection === index}
