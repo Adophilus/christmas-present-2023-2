@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Mulish:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&family=Rubik+Doodle+Shadow&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +26,17 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+	30% {
+		transform: translateY(100px);
+	}
+}
+
+svg #wheel {
+	animation: scroll ease 1.5s infinite;
 }
