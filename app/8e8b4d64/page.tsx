@@ -6,7 +6,7 @@ export default function HomePage() {
       <Provider>
         <Story sections={[
           {
-            text: "In every challenge, in each endeavor,",
+            text: "In this festive season so bright,",
             textColor: "text-white",
             background: "dark",
             footer: (
@@ -34,17 +34,15 @@ export default function HomePage() {
             )
           },
           {
-            text: "Your support is a treasure I'll cherish forever.",
+            text: "With friends like stars, a guiding light.",
             background: "blue"
           },
           {
-            text: "Through highs and lows, your love shines through,",
+            text: "Cheers and laughter, a joyous view,",
             background: "yellow"
           },
           {
-            text: (
-              <span>Thank you, Gold ❤️, for being there.</span>
-            ),
+            text: "Merry Christmas to my dear crew!",
             background: "yellow"
           },
           {
