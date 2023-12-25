@@ -8,7 +8,7 @@ import { twMerge } from 'tailwind-merge';
 
 export type Section = {
   icon?: string
-  text: string
+  text: ReactNode
   textColor?: string
   fontFamily?: string
   fontSize?: string
