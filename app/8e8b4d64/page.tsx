@@ -49,7 +49,7 @@ export default function HomePage() {
             background: "christmas",
             text: "In this season of joy and goodwill, I wish you and your family a Merry Christmas and a happy new year!",
             fontFamily: "font-Montserrat",
-            fontSize: 'text-3xl',
+            fontSize: 'text-2xl',
             icon: "🎄",
             textColor: "text-white",
             footer: (
