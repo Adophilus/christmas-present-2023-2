@@ -8,7 +8,7 @@ export default function HomePage() {
           {
             text: "In this festive season so bright,",
             textColor: "text-white",
-            background: "dark",
+            background: "fuchsia",
             footer: (
               <div className="flex flex-col items-center gap-4">
                 <svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" style={{

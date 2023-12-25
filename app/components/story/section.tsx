@@ -76,7 +76,7 @@ const Section: FunctionComponent<{
                       {icon}
                     </h2>
                   ) : null}
-                  <h2 className={twMerge(options.fontFamily, options.fontSize)}>
+                  <h2 className={twMerge(options.fontFamily, options.fontSize, "text-4xl")}>
                     {text}
                   </h2>
                 </header>
@@ -93,6 +93,7 @@ const Section: FunctionComponent<{
                   leave="transition-all duration-500"
                   leaveFrom="opacity-100 translate-y-0"
                   leaveTo="opacity-0 -translate-y-[100px]"
+                  className="text-base"
                 >
                   {footer}
                 </Transition.Child>

@@ -5,6 +5,7 @@ import { FunctionComponent, createContext, useState } from "react";
 const storyBackground = {
   dark: "bg-[#282c34]/75",
   blue: "bg-[#61dafb]/50",
+  fuchsia: "bg-fuchsia-700/75",
   yellow: "bg-[#f4d03f]/50",
   christmas: "bg-[#e74c3c]/75",
   transparent: "bg-transparent",
