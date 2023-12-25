@@ -6,7 +6,7 @@ export default function HomePage() {
       <Provider>
         <Story sections={[
           {
-            text: "In this academic season so bright,",
+            text: "In this festive season so bright,",
             textColor: "text-white",
             background: "fuchsia",
             footer: (
@@ -34,22 +34,22 @@ export default function HomePage() {
             )
           },
           {
-            text: "With guidance like a beacon, a constant light.",
+            text: "With friends like stars, a guiding light.",
             background: "blue"
           },
           {
-            text: "Wisdom and counsel, a knowledgeable view,",
+            text: "Cheers and laughter, a joyous view,",
             background: "yellow"
           },
           {
-            text: "Season's greetings to my dear adviser, true!",
+            text: "Merry Christmas to my dear crew!",
             background: "yellow"
           },
           {
             background: "christmas",
             text: "In this season of joy and goodwill, I wish you and your family a Merry Christmas and a happy new year!",
             fontFamily: "font-Montserrat",
-            fontSize: 'text-3xl',
+            fontSize: 'text-4xl',
             icon: "🎄",
             textColor: "text-white",
             footer: (
